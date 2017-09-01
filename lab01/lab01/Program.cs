@@ -8,8 +8,6 @@ namespace lab01
         {
             Console.WriteLine(" {0} and {1}", 3, 6);
 
-
-
         }
     }
 }
