@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace lab01
 {
@@ -10,6 +7,10 @@ namespace lab01
     {
         static void Main(string[] args)
         {
+            Random random = new Random();
+            int randomNumber = random.Next(0, 100);
+            Console.WriteLine(randomNumber);
+
         }
     }
 }
